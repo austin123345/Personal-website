@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Path of Light Yoga Studio</title>
+    <meta charset="utf-8">
+</head>
+<body id="wrapper">
+    <header class="content">
+        <h1><a href="index.html">Path of Light Yoga Studio</a></h1>
+    </header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="classes.html"> Classes</a></li>
+        <li><a href="schedule.html"> Schedule</a></li>
+        <li><a href="contact.html"> Contact</a></li>
+        <li><a href="store.html">store</a></li>
+    </ul>
+</nav>
+<div id="wrapper">
+<main>
+<h2>Contact Path of Light Yoga Studio</h2>
+<p>Fill out the form below to contact Path of Light Yoga Studio.  All information is required.</p>
+</div>
+<form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+    <label for="myName">Name:</label>
+    <input type="text" name="name" id="myName" required><br>
+    <label for="myEmail">E-mail:</label>
+    <input type="email" name="email" id="myEmail" required><br>
+    <label for="myRefer">How did you hear about us?:</label>
+    <input type="text" name="referral" id="myRefer" list="referrals" required><br>
+    <datalist id="referrals">
+        <option value="Google">
+        <option value="Facebook">
+        <option value="Friend">
+        <option value="Radio">
+    </datalist>
+    <label for="myComments">Comment:</label>
+    <textarea id="myComments" cols="20" rows="2" required></textarea>
+    <button id="mySubmit">Send Now</button>
+    </form>
+</main>
+<footer>
+    Copyright © 2020 Path of Light Yoga Studio<br>
+        <a href="mailto:nic@bander.com">nic@bander.com</a>
+    </footer>
+    </div>
+</body>
+</html>
+
